@@ -12,10 +12,8 @@ public class HydraEvent {
 	{
 		if (msg.contains("What a nice weather to go fishing!"))
 			rainEvent();
-		else if (msg.contains("Spring cleaning!")) {
-			Bukkit.broadcastMessage("§bSpring cleaning!");
+		else if (msg.contains("Spring cleaning!"))
 			cleanEvent();
-		}
 	}
 	
 	private static void rainEvent()
