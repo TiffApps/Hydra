@@ -24,9 +24,7 @@ public class Message {
 	public static List<String> transList(List<String> list)
     {
         for (int i = 0; i < list.size(); i++)
-        {
             list.set(i, trans(list.get(i)));
-        }
         return list;
     }
 
