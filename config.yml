@@ -1,0 +1,42 @@
+##############################################
+# Hydra Configuration File  # Made by Tiffaa #
+##############################################
+
+
+# Messages #
+
+Messages:
+  Prefix-Good: '&7-=&8[&9&k|||&8]&7:&8[&9Hydra&8]&7:&8[&9&k|||&8]&7=- &b'
+  Prefix-Bad: '&7-=&8[&c&k|||&8]&7:&8[&cHydra&8]&7:&8[&c&k|||&8]&7=- &6'
+  No-Perm: 'You cannot use this command!'
+
+
+ # Auto-Messages #
+ # Type {G} for the "Prefix-Good" or {B} for the "Prefix-Bad" #
+
+Announcement:
+ # Discord #
+- '{G}Want to join our Discord server? Invitation link:&9 https://discord.gg/6XuNmEu'
+ # Forums #
+- '{G}Don''t forget to register on the forums as well! Link:&9 https://www.mythicmc.info/forums/'
+ # Bugs #
+- '{B}If you find a bug, please tell us asap using the &c.bugreport <msg> &6command on Discord! Remember that &cexploiting a bug is bannable&6!'
+ # Donations #
+- '{G}Want some amazing cosmetic changes? Check out MythicMC store! &9https://store.mythicmc.info' 
+#- '{G} Dont hesitate to donate at &9https://www.paypal.me/mythicminecraft&b! It would greatly help us to pay the monthly server costs. Its also the &9only way &bto get the &9Donator rank &bon Discord'
+ # AnimalManager #
+- '{G}Did you know you can check animals details by &9sneaking &b+ &9right-clicking &bon them? Works with Sheeps, Rabbits, Horses, Donkeys, Mules, Parrots, Ocelots/Cats, Wolves/Dogs, and Llamas'
+
+ ## EVENT MESSAGES ##
+
+ # Fishing - sets the weather in the overworld for 15min #
+- '{G}What a nice weather to go fishing! Type &9/fish &bor &9/fi &b to to check ur &9stats&b!'
+ # Spring cleaning - displays green particles on every online players #
+- '{G}Spring cleaning! Server is &9squeaky clean &bagain!'
+
+
+ # Time between each Auto-Message #
+
+seconds: 900
+
+ # 3600 = 1h, 1800 = 30min, 900 = 15min, 1 = 1sec

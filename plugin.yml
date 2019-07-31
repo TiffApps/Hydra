@@ -1,0 +1,8 @@
+name: Hydra
+author: Tiffaa
+version: 1.0.0
+main: io.github.tiffaamc.hydra.Hydra
+commands:
+  hydrasay:
+    aliases: [hsay]
+    permission: hydra.admin
