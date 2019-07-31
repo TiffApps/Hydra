@@ -17,7 +17,7 @@ public class Say implements CommandExecutor {
 
         if (!player.hasPermission("hydra.admin") && !(player instanceof ConsoleCommandSender)) {
         	Message.sendNoPermMsg(player);
-        	return true;
+        	return false;
         }
 
         if (args.length == 1 && args[0].equalsIgnoreCase("reload"))
@@ -29,7 +29,7 @@ public class Say implements CommandExecutor {
         
         if (args.length < 2 || (!args[0].equalsIgnoreCase("good") && !args[0].equalsIgnoreCase("bad"))) {
         	Message.sendUsageMsg(player);
-        	return true;
+        	return false;
         }
         
         String prefix = null;
