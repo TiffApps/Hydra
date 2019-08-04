@@ -34,6 +34,8 @@ Announcement:
  # Spring cleaning - displays green particles on every online players #
 - '{G}Spring cleaning! Server is &9squeaky clean &bagain!'
 
+ # World for the rain event #
+World-rain: 'world'
 
  # Time between each Auto-Message #
 
