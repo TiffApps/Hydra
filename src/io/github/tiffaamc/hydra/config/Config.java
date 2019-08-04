@@ -12,6 +12,7 @@ public class Config
     public static String NO_PERM_MESSAGE;
     public static String PREFIX_GOOD;
     public static String PREFIX_BAD;
+    public static String WORLD;
     public static List<String> AUTO;
 
     public static void Load(FileConfiguration config)
@@ -19,6 +20,7 @@ public class Config
     	NO_PERM_MESSAGE = config.getString("Messages.No-Perm");
         PREFIX_GOOD = config.getString("Messages.Prefix-Good");
         PREFIX_BAD = config.getString("Messages.Prefix-Bad");
+	WORLD = config.getString("World-rain");
         AUTO = transList(config.getStringList("Auto"));
     }
 
