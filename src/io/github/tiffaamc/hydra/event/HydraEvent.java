@@ -18,7 +18,7 @@ public class HydraEvent {
 	
 	private static void rainEvent()
 	{
-		World world = Bukkit.getWorlds().get(0);
+		World world = Bukkit.getWorld(Config.WORLD);
 		world.setWeatherDuration(895 * 20); // = ~15min
 		world.setStorm(true);
 		world.setThundering(false);
